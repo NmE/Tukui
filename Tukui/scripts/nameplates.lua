@@ -1,5 +1,4 @@
--- credits : Caellian - CaelNamePlates !
--- ich bin der lars
+-- credits : Caellian - CaelNamePlates 
 
 if not TukuiCF["nameplate"].enable == true then return end
 
