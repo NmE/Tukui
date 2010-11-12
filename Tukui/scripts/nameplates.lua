@@ -1,5 +1,6 @@
 -- credits : Caellian - CaelNamePlates 
 -- lolda
+-- rofl
 
 if not TukuiCF["nameplate"].enable == true then return end
 
