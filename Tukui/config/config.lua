@@ -1,8 +1,15 @@
 ﻿TukuiCF["general"] = {
-	["autoscale"] = true,                  -- mainly enabled for users that don't want to mess with the config file
-	["uiscale"] = 0.71,                    -- set your value (between 0.64 and 1) of your uiscale if autoscale is off
+	["autoscale"] = false,                  -- mainly enabled for users that don't want to mess with the config file
+	["uiscale"] = 0.65,                    -- set your value (between 0.64 and 1) of your uiscale if autoscale is off
 	["overridelowtohigh"] = false,         -- EXPERIMENTAL ONLY! override lower version to higher version on a lower reso.
 	["multisampleprotect"] = true,         -- i don't recommend this because of shitty border but, voila!
+}
+
+TukuiCF["skin"] = {	--Skin addons by Darth Android
+	["recount"] = true,
+	["skada"] = true,
+	["dxe"] = true,
+	["omen"] = true,
 }
 
 TukuiCF["unitframes"] = {
@@ -76,6 +83,10 @@ TukuiCF["actionbar"] = {
 
 TukuiCF["nameplate"] = {
 	["enable"] = true,                     -- enable nice skinned nameplates that fit into tukui
+		["showhealth"] = true,					-- show health text on nameplate
+		["enhancethreat"] = true,				-- threat features based on if your a tank or not
+		["overlap"] = false,				--allow nameplates to overlap
+		["combat"] = false,					--only show enemy nameplates in-combat.
 }
 
 TukuiCF["bags"] = {
@@ -131,7 +142,7 @@ TukuiCF["tooltip"] = {
 	["hidecombat"] = false,                -- hide bottom-right tooltip when in combat
 	["hidebuttons"] = false,               -- always hide action bar buttons tooltip.
 	["hideuf"] = false,                    -- hide tooltip on unitframes
-	["cursor"] = false,                    -- tooltip via cursor only
+	["cursor"] = true,                    -- tooltip via cursor only
 }
 
 TukuiCF["merchant"] = {
@@ -152,7 +163,8 @@ TukuiCF["invite"] = {
 
 TukuiCF["buffreminder"] = {
 	["enable"] = true,                     -- this is now the new innerfire warning script for all armor/aspect class.
-	["sound"] = true,                      -- enable warning sound notification for reminder.
+		["sound"] = true,                      -- enable warning sound notification for reminder.
+		["raidbuffreminder"] = true,			-- buffbar below the minimap, important missing buffs
 }
 
 TukuiCF["others"] = {
